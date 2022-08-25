@@ -7,8 +7,8 @@
 		"merge",
 		"bot"
 	],
-	"repository": "https://github.com/yashoswalyo/MERGE-BOT",
-	"website": "https://telegram.dog/yashoswalyo",
+	"repository": "https://github.com/mrtechnocratinsta0/MERGE-BOT",
+	"website": "https://telegram.dog/mrtechnocratinsta",
 	"stack": "container",
 	"env": {
 		"CONFIG_FILE_URL": {
