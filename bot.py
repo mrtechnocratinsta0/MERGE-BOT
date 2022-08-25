@@ -259,7 +259,7 @@ async def files_handler(c: Client, m: Message):
             queueDB.update({user_id: {"videos": [], "subtitles": [], "audios":[]}})
         if (
             len(queueDB.get(user_id)["videos"]) >= 0
-            and len(queueDB.get(user_id)["videos"]) < 10
+            and len(queueDB.get(user_id)["videos"]) < 50
         ):
             queueDB.get(user_id)["videos"].append(m.id)
             queueDB.get(m.from_user.id)["subtitles"].append(None)
